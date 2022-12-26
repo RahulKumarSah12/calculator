@@ -69,18 +69,13 @@ form input.operator{
 
 
 @media only screen and (max-width: 600px){
-    .container{
-        width: 100%;
-        
-    }
-
-    .calculator{
-        width: 90%;
-        height: 75vh;
-    }
-
+    
     .calculator form input{
         width: 43px;
         height: 43px;
+    }
+
+    form input.equal{
+        width: 110px;
     }
 }
